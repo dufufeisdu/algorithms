@@ -1,0 +1,17 @@
+{
+  "name": "leecode-js",
+  "version": "1.0.0",
+  "description": "just js",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "jasmine"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "jasmine": "^2.8.0"
+  }
+}
