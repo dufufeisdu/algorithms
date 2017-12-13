@@ -4,4 +4,17 @@
 !_TAG_PROGRAM_NAME	Exuberant Ctags	//
 !_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
 !_TAG_PROGRAM_VERSION	5.8	//
+LENGTH	../P1.py	/^LENGTH = 500$/;"	kind:variable	line:6
+P1	../P1.py	/^def P1():$/;"	kind:function	line:10
 P1.py	../P1.py	1;"	kind:file	line:1
+PATH	../P1.py	/^PATH = os.getcwd() + "\/problemOne.txt"$/;"	kind:variable	line:5
+UF	../P1.py	/^UF = UnionFind()$/;"	kind:variable	line:4
+UnionFind	../P1.py	/^from UnionFind import UnionFind$/;"	kind:namespace	line:2
+UnionFind	../UnionFind.py	/^class UnionFind:$/;"	kind:class	line:9
+UnionFind.py	../UnionFind.py	1;"	kind:file	line:1
+__getitem__	../UnionFind.py	/^    def __getitem__(self, object):$/;"	kind:member	line:31
+__init__	../UnionFind.py	/^    def __init__(self):$/;"	kind:member	line:26
+__iter__	../UnionFind.py	/^    def __iter__(self):$/;"	kind:member	line:52
+data	../P1.py	/^data = open(PATH, 'r')$/;"	kind:variable	line:7
+os	../P1.py	/^import os$/;"	kind:namespace	line:3
+union	../UnionFind.py	/^    def union(self, *objects):$/;"	kind:member	line:56
