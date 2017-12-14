@@ -23,6 +23,7 @@ let rotateBinarySearch = (arr, ele) => {
 	}
 	return -1;
 }
+module.exports = rotateBinarySearch;
 console.log(rotateBinarySearch([10, 12, 14, 15, 16, 2, 6, 9], 14) === 2);
 console.log(rotateBinarySearch([10, 12, 14, 15, 16, 2, 6, 9], 0) === -1);
 console.log(rotateBinarySearch([16, 2, 6, 9, 10, 12, 14], 10) === 4);

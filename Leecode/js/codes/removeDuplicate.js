@@ -8,4 +8,5 @@ let remove_duplicate = (arr) => {
 	}
 	return arr.slice(0, index);
 }
+module.exports = remove_duplicate;
 console.log(remove_duplicate([1, 1, 2, 2, 3, 3, 5, 5]))

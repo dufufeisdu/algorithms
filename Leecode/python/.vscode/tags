@@ -6,5 +6,7 @@
 !_TAG_PROGRAM_VERSION	5.8	//
 LeecodeCountSay.py	../LeecodeCountSay.py	1;"	kind:file	line:1
 LeecodeRexMatch.py	../LeecodeRexMatch.py	1;"	kind:file	line:1
-count_and_say	../LeecodeCountSay.py	/^def count_and_say(n):$/;"	kind:function	line:8
+LeecodeSimplifyPath.py	../LeecodeSimplifyPath.py	1;"	kind:file	line:1
+count_and_say	../LeecodeCountSay.py	/^def count_and_say(n):$/;"	kind:function	line:9
 rexMatch	../LeecodeRexMatch.py	/^def rexMatch(s, rex):$/;"	kind:function	line:5
+simplify_path	../LeecodeSimplifyPath.py	/^def simplify_path(path):$/;"	kind:function	line:13

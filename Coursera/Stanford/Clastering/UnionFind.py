@@ -4,17 +4,17 @@ Union-find data structure.
 
 
 class UnionFind:
-    """An array[0...500] will stand for all the vetices,
+    """An array[0,1..n] will stand for all the vetices,
     then use the union and find data structure"""
 
     def __init__(self, totalVetices):
         self.vetices = list(xrange(0, totalVetices))
-        self.spacing = 0
 
     def find(self, num):
         while self.vetices[num] != num:
             temp = num
             num = self.vetices[num]
+            # path compress
             self.vetices[temp] = self.vetices[num]
         return num
 
@@ -23,3 +23,5 @@ class UnionFind:
         p2 = self.find(num2)
         if p1 != p2:
             self.vetices[p2] = self.vetices[p1]
+            return True
+        return False
