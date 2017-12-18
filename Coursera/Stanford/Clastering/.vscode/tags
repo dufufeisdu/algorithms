@@ -5,8 +5,7 @@
 !_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
 !_TAG_PROGRAM_VERSION	5.8	//
 P1.py	../P1.py	1;"	kind:file	line:1
-P2.py	../P2.py	1;"	kind:file	line:1
-PATH	../P1.py	/^PATH = os.getcwd() + "\/mockProblemOneData1.txt"$/;"	kind:variable	line:5
+PATH	../P1.py	/^PATH = os.getcwd() + "\/ProblemOne.txt"$/;"	kind:variable	line:5
 Test_UnionFind	../test_UnionFind.py	/^class Test_UnionFind(unittest.TestCase):$/;"	kind:class	line:6
 UnionFind	../P1.py	/^from UnionFind import UnionFind$/;"	kind:namespace	line:2
 UnionFind	../UnionFind.py	/^class UnionFind:$/;"	kind:class	line:6
@@ -17,8 +16,7 @@ __init__.py	../__init__.py	1;"	kind:file	line:1
 find	../UnionFind.py	/^    def find(self, num):$/;"	kind:member	line:13
 os	../P1.py	/^import os$/;"	kind:namespace	line:3
 os	../test_UnionFind.py	/^import os.path$/;"	kind:namespace	line:2
-p1	../P1.py	/^def p1(k=4, length=5):$/;"	kind:function	line:8
-p2	../P2.py	/^def p2():$/;"	kind:function	line:3
+p1	../P1.py	/^def p1(k=4, length=500):$/;"	kind:function	line:8
 path	../test_UnionFind.py	/^import os.path$/;"	kind:namespace	line:2
 setUp	../test_UnionFind.py	/^    def setUp(self):$/;"	kind:member	line:7
 test_UnionFind.py	../test_UnionFind.py	1;"	kind:file	line:1
