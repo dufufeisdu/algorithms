@@ -17,13 +17,13 @@ def knapsack():
             data.append(map(lambda x: int(x), line.split(" ")))
     total_items = data[0][1]
     max_weight = data[0][0]
-    result_table = [[0] * total_items for m in xrange(0, max_weight + 1)]
+    result_table = [[0] * (max_weight + 1) for m in xrange(0, total_items + 1)]
     for size in xrange(1, total_items + 1):
         current_weight = data[size][1]
         current_value = data[size][0]
-        for weight in xrange(current_weight, max_weight):
+        for weight in xrange(current_weight, max_weight + 1):
             result_table[size][weight] = max(
-                result_table[size - 1][weight], result_table[size][weight - current_weight] + current_value)
+                result_table[size - 1][weight], result_table[size - 1][weight - current_weight] + current_value)
     return {'optimal value': result_table[total_items][max_weight]}
 
 
